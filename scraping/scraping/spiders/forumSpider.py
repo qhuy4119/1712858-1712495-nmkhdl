@@ -14,6 +14,8 @@ class forumSpider(scrapy.Spider):
         forumName = response.css("ul.p-breadcrumbs li:last-child a span::text").get()
         yield {
             'postCotent': postContent,
-            'forumName': forumName
+            'forumName': forumName,
+            'postLink': response.url,
+
         }
 
