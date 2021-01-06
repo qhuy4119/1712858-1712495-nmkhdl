@@ -20,7 +20,8 @@ class forumSpider(scrapy.Spider):
     #Parse a post page. Example of a post: https://voz.vn/t/xiaomi-mi-11-ve-viet-nam-gia-hon-15-trieu-dong.208165/
     def parse_post(self, response):
         postTitle = response.css("h1.p-title-value::text").get()
-        postContent = response.css("div.bbWrapper:first-child::text").get()
+        postContent = response.xpath("(//div[@class='bbWrapper'])[1]/text()[normalize-space()]").getall()
+        postContent = ''.join(postContent)
         forumName = response.css("ul.p-breadcrumbs li:last-child a span::text").get()
         yield {
             'postTitle': postTitle,
