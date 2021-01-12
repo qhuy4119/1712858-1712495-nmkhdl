@@ -1,6 +1,12 @@
 {% extends "index.html" %}
 {% block result %} 
-<div>
-	{{ result }} 
+<div id='result'>
+	<p>
+	We predict that the text you submitted should belong to: {{ result }}
+	</p>
+	<p>
+	What you submitted is: <br>
+	{{ requestContent}}
+	</p>
 </div>
 {% endblock %}

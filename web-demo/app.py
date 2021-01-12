@@ -10,4 +10,4 @@ def index():
 def get_prediction():
     #TODO: load model -> predict -> render html template with prediction result
     result = 'placeholder result'
-    return render_template('resultPage.html', result=result)
+    return render_template('resultPage.html', result=result, requestContent=request.form['content'])
