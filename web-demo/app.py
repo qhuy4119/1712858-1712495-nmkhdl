@@ -9,4 +9,5 @@ def index():
 @app.route('/predict', methods=['POST'])
 def get_prediction():
     #TODO: load model -> predict -> render html template with prediction result
-    return request.form["content"]
+    result = 'placeholder result'
+    return render_template('resultPage.html', result=result)
