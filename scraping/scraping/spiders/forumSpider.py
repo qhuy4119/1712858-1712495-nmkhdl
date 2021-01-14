@@ -23,11 +23,12 @@ class forumSpider(scrapy.Spider):
         postContent = response.xpath("(//div[@class='bbWrapper'])[1]/text()[normalize-space()]").getall()
         postContent = ''.join(postContent)
         forumName = response.css("ul.p-breadcrumbs li:last-child a span::text").get()
+        postDateOfCreation = response.css("time.u-dt::attr(data-date-string)").get()
         yield {
             'postTitle': postTitle,
             'postCotent': postContent,
             'forumName': forumName,
             'postLink': response.url,
-
+            'postDateOfCreation': postDateOfCreation,
         }
 
