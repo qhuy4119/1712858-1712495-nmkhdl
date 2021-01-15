@@ -1,9 +1,9 @@
 # Thông tin nhóm
 STT: 41
 
-1712858 - Nguyễn Ngọc Tú
+1712858 - Nguyễn Ngọc Tú - nntu079
 
-1712495 - Nguyễn Quang Huy
+1712495 - Nguyễn Quang Huy - qhuy4119
 
 # Giới thiệu đồ án
 
