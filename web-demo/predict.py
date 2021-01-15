@@ -29,5 +29,6 @@ def indexToLabel(idx, labels=LABELS):
 if __name__ == "__main__":
     test = 'Điện thoại Iphone10 vừa ra mắt thật đẹp muốn mua mà không có tiền'
     resultLabel, probability_vector = predictLabel(test)
+    print ("The test string is: ", test)
     print ("Probability vector is: ", probability_vector)
     print ("The best fit class: ", resultLabel)
