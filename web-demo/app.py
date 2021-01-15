@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template
+from . import predict
 
 app = Flask(__name__)
 
@@ -9,5 +10,5 @@ def index():
 @app.route('/predict', methods=['POST'])
 def get_prediction():
     #TODO: load model -> predict -> render html template with prediction result
-    result = 'placeholder result'
+    result, probability_vector = predict.predictLabel(request.form['content'])
     return render_template('resultPage.html', result=result, requestContent=request.form['content'])
