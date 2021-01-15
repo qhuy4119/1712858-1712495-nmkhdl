@@ -1,13 +1,13 @@
 # Thông tin nhóm
 STT: 41
 
-1712858 - Nguyễn Ngọc Tú
+1712858 - Nguyễn Ngọc Tú - nntu079
 
-1712495 - Nguyễn Quang Huy
+1712495 - Nguyễn Quang Huy - qhuy4119
 
 # Giới thiệu đồ án
 
-Phân loại bài viết trên [voz.vn](voz.vn) vào forum có chủ đề phù hợp dựa trên nội dung.
+Phân loại bài viết trên [voz.vn](https://voz.vn) vào forum có chủ đề phù hợp dựa trên nội dung.
 
 Dựa trên nội dung, các bài viết sẽ được tự động phân loại vào một trong 4 forum: [Phim/Nhạc Sách](https://voz.vn/f/phim-nhac-sach.65/), [Điện thoại di động](https://voz.vn/f/dien-thoai-di-dong.76/), [4 bánh](https://voz.vn/f/4-banh.38/), [Đồ điện tử & Thiết bị gia dụng](https://voz.vn/f/do-dien-tu-thiet-bi-gia-dung.10/)
 
@@ -15,7 +15,7 @@ Dựa trên nội dung, các bài viết sẽ được tự động phân loại
 ![Trang kết quả](https://github.com/qhuy4119/1712858-1712495-nmkhdl/blob/main/images/result%20page.png)
 
 # Quy trình thực hiện
-1. Crawl dữ liệu từ [voz.vn](voz.vn) bằng thư viện [Scrapy](scrapy.org)  
+1. Crawl dữ liệu từ [voz.vn](https://voz.vn) bằng thư viện [Scrapy](https://scrapy.org)  
 2. Sau khi crawl xong, thu được các dữ liệu:
 	- postTitle: tiêu đề bài viết
 	- postContent: nội dung bài viết
