@@ -2,10 +2,10 @@
 {% block result %} 
 <div id='result'>
 	<p>
-	We predict that the text you submitted should belong to: <span id='result-category'>{{ result }}</span>
+	Kết quả dự đoán: forum <span id='result-category'>{{ result }}</span> với xác suất <span id='result-probability'>{{highestProbability}}%</span>
 	</p>
 	<p>
-	What you submitted is: <br>
+	Nội dung bạn vừa gửi lên là: <br>
 	{{ requestContent}}
 	</p>
 </div>
