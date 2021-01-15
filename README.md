@@ -11,6 +11,9 @@ Phân loại bài viết trên [voz.vn](voz.vn) vào forum có chủ đề phù 
 
 Dựa trên nội dung, các bài viết sẽ được tự động phân loại vào một trong 4 forum: [Phim/Nhạc Sách](https://voz.vn/f/phim-nhac-sach.65/), [Điện thoại di động](https://voz.vn/f/dien-thoai-di-dong.76/), [4 bánh](https://voz.vn/f/4-banh.38/), [Đồ điện tử & Thiết bị gia dụng](https://voz.vn/f/do-dien-tu-thiet-bi-gia-dung.10/)
 
+![Trang chủ](https://github.com/qhuy4119/1712858-1712495-nmkhdl/blob/main/images/index%20page.png)
+![Trang kết quả](https://github.com/qhuy4119/1712858-1712495-nmkhdl/blob/main/images/result%20page.png)
+
 # Quy trình thực hiện
 1. Crawl dữ liệu từ [voz.vn](voz.vn) bằng thư viện [Scrapy](scrapy.org)  
 2. Sau khi crawl xong, thu được các dữ liệu:
