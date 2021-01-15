@@ -25,5 +25,13 @@ Tuy nhiên, khi huấn luyện mô hình thì chỉ dùng tới postContent và 
 
 Giải thích model : https://github.com/qhuy4119/1712858-1712495-nmkhdl/blob/main/Description%20model.pdf
 
+# Cách sử dụng
+1. Tải/Clone repository về máy
+2. Tất cả các phần tiếp theo đều sử dụng python 3.7 trở xuống. Nếu xung đột với python đang có sẵn trên máy, vui lòng tìm hiểu sử dụng [virtual environment](https://realpython.com/python-virtual-environments-a-primer/)
+3. Đảm bảo tất cả các thư viện python được liệt kê trong requirements.txt đều đã được cài đặt 
+4. Change directory vào thư mục web-demo
+5. Chạy lệnh `python -m flask run`
+6. Một local web server sẽ được khởi động và trang chủ của application sẽ được tự động mở trong web browser (nếu nó không tự động mở thì vui lòng truy cập url hiện ở output của lệnh ở bước 5, thông thường sẽ là 127.0.0.1/5000). Sau đó làm theo hướng dẫn trên trang web
+
 # Các thông tin khác
 Phân chia công việc: https://github.com/qhuy4119/1712858-1712495-nmkhdl/blob/main/Teamwork.pdf
